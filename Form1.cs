@@ -92,6 +92,7 @@ namespace WindowsFormsApp1
         private void CmdAnzeigen_Click(object sender, EventArgs e)
         {
             AlleSehen();
+            //Möchte ermöglichen, dass man nach Daten filtern kann. Zum Beispiel nur die Datenbankeinträge für das Jahr 2019
         }
 
         private void Ausgabe()
