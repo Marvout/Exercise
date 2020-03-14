@@ -6,6 +6,7 @@ I need an UI which should ask for the needed information. In addition to that I 
 my home and the work destination barely changes very often.
 Also I use a database from Microsoft Access. My goal for now is, to achieve a working program which helps me
 to edit the database. Then I could use this database and print the travels in Microsoft Excel. My final goal would be
-to do everthing with the c# program, so also the printing in a specific way and layout.
+to do everything with the c# program, so also the printing in a specific way and layout. For that I need to know how to publish the 
+program so it could be used without visual studio.
 
 I have been using c# for a couple of months now. Before I started to learn C# i got some experience with VBA (2years). 
