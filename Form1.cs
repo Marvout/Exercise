@@ -318,7 +318,8 @@ namespace WindowsFormsApp1
             try
             {
                 con.Open();
-                cmd.CommandText = "SELECT * FROM Fahrten ORDER BY Datum";
+                cmd.CommandText = "SELECT * FROM Fahrten WHERE Datum => 43700; //Works
+                //"SELECT * FROM Fahrten WHERE Datum => 01/01/2019 AND Datum < 01/01/2020";  /Does not work, but this is what i want to work                  
                 DateTime Datum;
                 DateTime UhrzeitVon;
                 DateTime UhrzeitBis;
